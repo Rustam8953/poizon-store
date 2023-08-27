@@ -48,7 +48,7 @@
                                 <div class="catalog-slide__page swiper-slide catalog-swiper__slide" data-slide-name="Nike">
                                     
                                     <?php
-                                        $mysqli = new mysqli('localhost', 'u1923960_qwerty', '89537845840Rustam', 'u1923960_qwerty');
+                                        $mysqli = new mysqli('localhost', 'name__bd', 'password', 'name__subBd');
                                         if($mysqli->connect_errno) {
                                             echo 'Ошибка соединения с сервером';
                                         }
@@ -90,7 +90,7 @@
                                 <div class="catalog-slide__page swiper-slide catalog-swiper__slide" data-slide-name="Vans">
     
                                     <?php
-                                        $mysqli = new mysqli('localhost', 'u1923960_qwerty', '89537845840Rustam', 'u1923960_qwerty');
+                                        $mysqli = new mysqli('localhost', 'name__bd', 'password', 'name__subBd');
                                         if($mysqli->connect_errno) {
                                             echo 'Ошибка соединения с сервером';
                                         }
@@ -132,7 +132,7 @@
                                 <div class="catalog-slide__page swiper-slide catalog-swiper__slide" data-slide-name="Converse">
     
                                     <?php
-                                        $mysqli = new mysqli('localhost', 'u1923960_qwerty', '89537845840Rustam', 'u1923960_qwerty');
+                                        $mysqli = new mysqli('localhost', 'name__bd', 'password', 'name__subBd');
                                         if($mysqli->connect_errno) {
                                             echo 'Ошибка соединения с сервером';
                                         }
